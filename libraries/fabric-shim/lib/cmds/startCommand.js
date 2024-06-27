@@ -29,7 +29,7 @@ exports.desc = 'Start an empty chaincode';
 exports.builder = (yargs) => {
     yargs.options(validOptions);
 
-    yargs.usage('fabric-chaincode-node start --peer.address localhost:7051 --chaincode-id-name mycc');
+    yargs.usage('kalp-shim start --peer.address localhost:7051 --chaincode-id-name mycc');
 
     return yargs;
 };
